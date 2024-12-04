@@ -1,13 +1,15 @@
 @use 'base';
 @use 'functions' as *;
 @use 'mixins' as *;
+@use 'sass:map';
+
 
 .title {
   @include typography('display-lg', 'bold');
 }
 
 .title-1 {
-  color: get-color('brand', '400');
+  color: get-color('brand', '400'); 
 }
 
 .title-2 {
